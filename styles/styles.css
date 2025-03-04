@@ -1,0 +1,26 @@
+body{
+    overflow: hidden;
+}
+#heroImage{
+    object-fit: cover;
+    overflow: hidden;
+}
+.headerSection, .mainContainer{
+    background-color: rgb(220, 205, 205);
+}
+ul{
+    list-style-type: none;
+    margin : 0 ;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    /* border-left : 1px solid rgb(87, 70, 70) */
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
